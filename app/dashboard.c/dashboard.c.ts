@@ -6,7 +6,8 @@ import {Router} from 'angular2/router';
 
 @Component({
     selector: 'my-dashboard',
-    templateUrl: '/app/dashboard.c/dashboard.c.html'
+    templateUrl: '/app/dashboard.c/dashboard.c.html',
+    styleUrls: ['./app/dashboard.c/dashboard.c.css']
 })
 export class DashboardComponent implements OnInit {
     heroes: Hero[] = [];
